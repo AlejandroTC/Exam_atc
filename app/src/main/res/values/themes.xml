@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Exam_atc" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <!-- Light Theme -->
+    <style name="Screen">
+        <item name="android:background">#A9BBF2</item>
+    </style>
+    <style name='TextPrimary'>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name='TextSecondary'>
+        <item name="android:textColor">#F7FFC6</item>
+    </style>
+    <color name="ButtonCard">
+        #F2C19B
+    </color>
+    <style name="ButtonCardText">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <color name="Button">#FFFFFF</color>
+    <style name="ButtonTextColor">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="IconColor">
+        <item name="color">#000000</item>
+    </style>
+    <color name="SpaceSeparator">
+        #F2C19B
+    </color>
+    <style name="UserName">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <!-- Colores de objetos -->
+    <color name="CircleTop">#f29bf2</color>
+    <color name="CircleButtom">#F2C39B</color>
+    <style name="Theme.Exam_atc" parent="Base.Theme.Exam_atc" />
+</resources>
