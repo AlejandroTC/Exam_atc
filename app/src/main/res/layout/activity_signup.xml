@@ -7,29 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/edittext_background"
-        android:drawableStart="@drawable/password"
-        android:drawablePadding="16dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textColor="#f6de07"
-        android:textColorHint="#f6de07"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
-
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/circle_pink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-2dp"
@@ -39,97 +18,97 @@
         app:srcCompat="@drawable/circle_top" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tittle_text_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:text="Login"
-        android:textColor="#ffffff"
+        android:layout_marginTop="8dp"
+        android:text="SignUp"
+        android:fontFamily="@font/roboto_mono"
+        style="@style/UserName"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/circle_pink" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/username_input"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/edittext_background"
-        android:drawableStart="@drawable/email"
+        android:drawableStart="@drawable/user_circle"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/roboto_mono"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        style="@style/Inputs"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tittle_text_signup"
+        app:layout_constraintTop_toBottomOf="@+id/tittle_text_signup" />
+
+    <EditText
+        android:id="@+id/pass_input"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/key"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/roboto_mono"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        style="@style/Inputs"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tittle_text_signup"
+        app:layout_constraintTop_toBottomOf="@+id/mail_input" />
+
+    <EditText
+        android:id="@+id/mail_input"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/edittext_background"
+        android:fontFamily="@font/roboto_mono"
+        android:drawableStart="@drawable/mail_heart"
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
-        android:textColor="#f6de07"
-        android:textColorHint="#f6de07"
+        style="@style/Inputs"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tittle_text_signup"
+        app:layout_constraintTop_toBottomOf="@+id/username_input" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signup_btn"
         style="@android:style/Widget.Button"
         android:layout_width="0dp"
         android:layout_height="50sp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:text="Login"
-        android:background="@drawable/white_btn"
+        android:background="@drawable/bt_bg"
+        android:fontFamily="@font/roboto_mono"
+        android:text="Signup"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button">
-
-        <Button
-            android:id="@+id/button3"
-            style="@android:style/Widget.Button"
-            android:layout_width="0dp"
-
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_weight="0.5"
-            android:background="@drawable/no_background_btn"
-            android:drawableEnd="@drawable/facebook"
-            android:drawablePadding="16dp"
-            android:padding="8dp"
-            android:text="Facebook"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/button2"
-            style="@android:style/Widget.Button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="32dp"
-            android:layout_weight="0.5"
-            android:background="@drawable/no_background_btn"
-            android:drawableEnd="@drawable/google"
-            android:drawablePadding="16dp"
-            android:padding="8dp"
-            android:text="Google"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-    </LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/pass_input" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -139,32 +118,34 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/signup_btn">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/text_info_su"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Are your new user?"
+            android:fontFamily="@font/roboto_mono"
+            android:text="Forget your password?"
             android:textColor="#ffffff"
             android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/recovery_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
+            android:fontFamily="@font/roboto_mono"
             android:layout_weight="1"
-            android:text="Register"
-            android:textColor="#f6de07"
+            android:text="Recovery it"
+            style="@style/TextSecondary"
             android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/circle_above"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="-2dp"

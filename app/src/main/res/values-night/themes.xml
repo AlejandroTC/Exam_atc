@@ -4,4 +4,58 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
+    <!-- Dark Theme -->
+    <color name="currentColorLogin">#000000</color>
+    <color name="currentColor">#FFFFFF</color>
+
+    <style name="Screen">
+        <item name="android:background">#2B2B2B</item>
+    </style>
+    <style name='TextPrimary'>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name='TextSecondary'>
+        <item name="android:textColor">#A1A1A1</item>
+    </style>
+    <color name="ButtonCard">#f29bf2</color>
+    <style name="ButtonCardText">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <color name="Button">#999999</color>
+    <style name="ButtonTextColor">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="IconColor">
+        <item name="color">#FFFFFF</item>
+    </style>
+    <color name="SpaceSeparator">#f29bf2</color>
+    <style name="UserName">
+        <item name="android:shadowColor">#f29bf2</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <!-- Colores de inputs -->
+    <style name='Inputs'>
+        <item name="android:textColor">#A1A1A1</item>
+        <item name="android:textColorHint">#A1A1A1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Colores de objetos -->
+    <color name="CircleTop">#F2C39B</color>
+    <color name="CircleButtom">#f29bf2</color>
+    <color name="logo_1">#FF6D97</color>
+    <color name="logo_2">#FF4E75</color>
+    <color name="logo_3">#E1A775 </color>
+    <color name="logo_4">#C58E68</color>
+    <color name="logo_5">#A87353</color>
+    <color name="logo_6">#8D5B3E</color>
+    <color name="logo_7">#724529</color>
+    <color name="logo_8">#593412</color>
+    <style name="Theme.Exam_atc.Dark" parent="Base.Theme.Exam_atc">
+
+    </style>
+
 </resources>

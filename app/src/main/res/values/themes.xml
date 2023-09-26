@@ -5,6 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
     <!-- Light Theme -->
+    <color name="currentColorLogin">#FFFFFF</color>
+    <color name="currentColor">#000000</color>
+
     <style name="Screen">
         <item name="android:background">#A9BBF2</item>
     </style>
@@ -38,8 +41,22 @@
         <item name="android:shadowRadius">1</item>
         <item name="android:textColor">#ffffff</item>
     </style>
+    <!-- Colores de imputs -->
+    <style name='Inputs'>
+        <item name="android:textColor">#F7FFC6</item>
+        <item name="android:textColorHint">#F7FFC6</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <!-- Colores de objetos -->
     <color name="CircleTop">#f29bf2</color>
     <color name="CircleButtom">#F2C39B</color>
     <style name="Theme.Exam_atc" parent="Base.Theme.Exam_atc" />
+    <color name="logo_1">#FFA7C4</color>FF7197
+    <color name="logo_2">#FF7197</color>
+    <color name="logo_3">#F2C39B </color>
+    <color name="logo_4">#E2B085</color>
+    <color name="logo_5">#D2A16F</color>
+    <color name="logo_6">#C2935A</color>
+    <color name="logo_7">#B28544</color>
+    <color name="logo_8">#A2772F</color>
 </resources>
